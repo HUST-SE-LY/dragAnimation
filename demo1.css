@@ -1,0 +1,72 @@
+.card {
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: lightgray 0 0 10px;
+  color: white;
+  font-size: 40px;
+  font-family: "Century Gothic", serif;
+  text-align: center;
+  line-height: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  left: calc(50% - 250px);
+  user-select: none;
+}
+
+.card1 {
+  background: linear-gradient(to bottom right,#91AD9E,#979771);
+  top: 20px;
+}
+.card2 {
+  background: linear-gradient(to bottom right,#E8D3C0, #D89C7A);
+  top: 190px;
+}
+.card3 {
+  background: linear-gradient(to bottom right,#C2CEDC, #B0B1B6);
+  top: 360px;
+}
+.card4 {
+  background: linear-gradient(to bottom right,#ECCED0, #B57C82);
+  top: 530px;
+}
+
+.card_active {
+  width: 520px;
+  height: 170px;
+  z-index: 1;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: gray 0 0 40px;
+  color: white;
+  font-size: 40px;
+  font-family: "Century Gothic", serif;
+  text-align: center;
+  line-height: 150px;
+  transition: width 0.3s,height 0.3s;
+  cursor: pointer;
+  left: calc(50% - 260px);
+  user-select: none;
+}
+
+.card1_active {
+  background: linear-gradient(to bottom right,#91AD9E,#979771);
+  top: 10px;
+}
+.card2_active {
+  background: linear-gradient(to bottom right,#E8D3C0, #D89C7A);
+  top: 180px;
+}
+.card3_active {
+  background: linear-gradient(to bottom right,#C2CEDC, #B0B1B6);
+  top: 350px;
+}
+.card4_active {
+  background: linear-gradient(to bottom right,#ECCED0, #B57C82);
+  top: 520px;
+}
+
+
+
+
